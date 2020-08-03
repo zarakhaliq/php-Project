@@ -1,0 +1,26 @@
+table{
+    width:600px;
+
+}
+
+th{
+    text-align:left;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding:10px;
+}
+
+tr:nth-child(odd){
+    background-color:lightgray;
+}
+
+#heading{
+    text-align:center;
+    
+}
